@@ -1,0 +1,29 @@
+.nav-logo{
+    width: 200px;
+    
+}
+
+.nav{
+    position: fixed;
+    top: 0px;
+    padding: 20px;
+    display: flex;
+    width: 100%;
+    height: 75px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0,0);
+}
+.nav:hover{
+    background-color: rgba(0, 0, 0,0.8);
+}
+
+.other-links{
+    margin-top: 25px;
+    margin-left: 40px;
+}
+
+.other-links:hover{
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 3px;
+}
